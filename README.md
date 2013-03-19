@@ -10,7 +10,7 @@ Features:
 Research:
  - https://github.com/OpenBankProject/OBP-API/wiki/REST-API-V1.1
  - http://doc.api.leetchi.com/
-
+ - https://code.google.com/p/oauth-php/
 Using: 
  - Php + mysql
  - JSON for openbank
