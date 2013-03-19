@@ -33,13 +33,14 @@
 // TODO: something with the HTTP return code matching to the problem
 
 require_once dirname(__FILE__) . '/OAuthRequestLogger.php';
-
+$debug = true;
 class OAuthException2 extends Exception
 {
 	function __construct ( $message )
 	{
 		Exception::__construct($message);
 		OAuthRequestLogger::addNote('OAuthException2: '.$message);
+		if($debug) echo message;
 	}
 
 }
